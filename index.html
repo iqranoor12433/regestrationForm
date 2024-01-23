@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+    <form >
+
+        <header><h2>Registration Form </h2></header>
+    
+    <section>
+        <h3>Personal Information</h3>
+        <hr>
+        <label for="firstName"><h4>First Name:</h4></label>
+        <input required name="firstNAme" type="text" id="firstName" placeholder="First Name">
+        <!-- <i class="material-icons">person</i> -->
+        <label for="middleName"><h4>Middle Name:</h4></label>
+        <input required name="middleNAme" type="text" id="middleName" placeholder="Middle Name">
+        <label for="lastName"><h4>Last Name:</h4></label>
+        <input required name="lastNAme" type="text" id="lastName" placeholder="Last Name">
+        <label for="dob"><h4>DOB:</h4></label>
+        <input type="date" name="dob" id="dob">
+        <label for="gender"><h4>Gender:</h4></label>
+        <input type="radio" name="gender" id="gender">Male
+        <br>
+        <input type="radio" name="gender" id="gender">Female
+        <br>
+        <input type="radio" name="gender" id="gender">Prefer not to say
+        <br>
+    </section>
+    <section><h3>Contact Information</h3>
+        <hr>
+        <label for="email"><h4>E-mail Address:</h4></label>
+        <input required name="email" type="email" id="email" placeholder="e-mail">
+        <!-- <i class="material-icons">email</i> -->
+        <label for="number"><h4>Contact Number:</h4></label>
+        <input required name="Cnumber" type="number" id="number" placeholder="Phone Number">
+        <label for="link"><h4>Linkedln:</h4></label>
+        <input required name="link" type="text" id="link" placeholder="Linkedln">
+        <label for="landL"><h4>Land-Line Number:</h4></label>
+        <input  name="landL" type="text" id="landL" placeholder="Land-Line Number">
+    </section>
+    <section>
+        <h3>Address Details</h3>
+        <hr>
+        <label for="address"><h4>Present Address:</h4></label>
+        <textarea name="haddress" id="address" cols="20" rows="5" placeholder="Address"></textarea>
+        <label for="country" id="country"><h4>Country:</h4></label>
+        <!-- <input type="" name="city" id="city" placeholder="Country"> -->
+        <select id="country" >
+            <option value="text" >Afghanistan</option>
+            <option value="text">Australia</option>
+            <option value="text">Iran</option>
+            <option value="text">India</option>
+            <option value="text" selected>Pakistan</option>
+            <option value="text">USA</option>
+        </select>
+        <label for="city"><h4>City:</h4></label>
+        <input type="text" name="city" id="city" placeholder="City">
+        <label for="postelCode"><h4>Postel Code:</h4></label>
+        <input type="text" name="city" id="postelCode" placeholder="Postel Code">
+    </section>
+    <section class="radio"><h3>Fields</h3>
+        <hr>
+        <label for="feildin"><h4>Field of Intrest:</h4></label>
+        <label><input type="radio" name="feildin" id="feildin">Full-Stack Web Development </label>
+
+        <label><input type="radio" name="feildin" id="feildin">Front-End Web Development</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Back-End Web Development</label>
+
+        <label><input type="radio" name="feildin" id="feildin">App Development</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Python Proramming</label>
+
+        <label><input type="radio" name="feildin" id="feildin">C++ Programming</label>
+
+        <label><input type="radio" name="feildin" id="feildin">C# Programming</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Java</label>
+
+        <label><input type="radio" name="feildin" id="feildin">JavaScript</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Graphic Designing </label>
+
+        <label><input type="radio" name="feildin" id="feildin">UX/UI Designing</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Meachine Learning</label>
+
+        <label><input type="radio" name="feildin" id="feildin">WordPress</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Data Analyst</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Cyber security</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Flutter</label>
+
+        <label><input type="radio" name="feildin" id="feildin">AI/ML</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Data Science</label>
+
+        <label><input type="radio" name="feildin" id="feildin">Reacts</label>
+    </section>
+
+    <section class="radio">
+        <h3>Level</h3>
+        <hr>
+        <label for="level"><h4>Level of Experience:</h4></label>
+        <label ><input type="radio" name="level" id="level">Beginer</label>
+        
+        <label ></label><input type="radio" name="level" id="level">Intermediate</label>
+        
+        <label ></label><input type="radio" name="level" id="level">Expert</label>
+    </section>
+    <section>
+        <h3>Resume/CV</h3>
+        <hr>
+        <!-- <div class="file"> -->
+        <label for="cv"><h4>Resume/CV </h4></label>
+        <input type="file" name="cv" id="cv">
+        <!-- </div> -->
+    </section>
+   <div id="selff">
+    <input type="submit" name="" id=""><input type="reset">
+   </div>
+    </form>
+</main>
+</body>
+</html>
